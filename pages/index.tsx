@@ -119,7 +119,7 @@ const Home: NextPage = () => {
         </section>
 
         <footer className={styles.footer}>
-          <p>© 2025 Vorhrox Realm. Все права защищены.</p>
+          <p>2025 Vorhrox Realm Отдельное спасибо Саншайну.</p>
           <div className={styles['social-links']}>
             <a href="https://www.tiktok.com/@vorhrox">TT</a>
             <a href="https://t.me/vorhrox">TG</a>
