@@ -32,7 +32,7 @@ const Home: NextPage = () => {
 
         <section id="home" className={styles.hero}>
           <div className={styles['hero-content']}>
-            <img src="https://via.placeholder.com/150" alt="[Аватарка тиктокера]" className={styles.avatar} />
+            <img src="https://cdn.discordapp.com/attachments/1381871904192729118/1389294277749768194/IMG_20250512_121428_817.jpg?ex=6864189f&is=6862c71f&hm=9e35d2a61847c608b1a2045cadd693e27ae0beb4bc78a392a7426273aa8ede3f&" alt="Vorhrox" className={styles.avatar} />
             <h1>Vorhrox Realm</h1>
             <p>Этот сервер создан для игр и общества фанатов Vorhrox'a! </p>
             <a href="https://discord.gg/gcUZBVBG" className={styles['cta-button']}>Зайти на сервер</a>
