@@ -13,8 +13,6 @@ services:
         value: 18
       - key: NODE_ENV
         value: production
-```
-
 ### Explanation of `render.yaml`:
 - **type: web**: Specifies a web service for your Next.js app.
 - **name**: Name of the service (e.g., `discord-server-site`).
