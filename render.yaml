@@ -1,0 +1,28 @@
+services:
+  - type: web
+    name: discord-server-site
+    env: node
+    plan: free
+    branch: main
+    repo: <your-repository-url> # Replace with your GitHub/GitLab/Bitbucket repository URL
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    autoDeploy: true
+    envVars:
+      - key: NODE_VERSION
+        value: 18
+      - key: NODE_ENV
+        value: production
+```
+
+### Explanation of `render.yaml`:
+- **type: web**: Specifies a web service for your Next.js app.
+- **name**: Name of the service (e.g., `discord-server-site`).
+- **env: node**: Uses Node.js environment.
+- **plan: free**: Uses Render’s free tier (suitable for 24/7 hosting with limitations; upgrade to a paid plan if needed).
+- **branch: main**: Deploys from the `main` branch.
+- **repo**: Your repository URL (e.g., `https://github.com/username/discord-server-site`).
+- **buildCommand**: Installs dependencies and builds the Next.js app.
+- **startCommand**: Starts the Next.js server.
+- **autoDeploy: true**: Automatically deploys on new commits to the main branch.
+- **envVars**: Sets Node.js version to 18 and environment to production.
