@@ -274,10 +274,11 @@
 
 .floating-element {
     position: absolute;
-    background: rgba(138, 127, 77, 0.1); /* Subdued gold background */
+    background: rgba(50, 70, 100, 0.06); /* Очень тёмно-синий, полупрозрачный */
     border-radius: 50%;
     animation: float 6s ease-in-out infinite;
 }
+
 
 .floating-element:nth-child(1) {
     width: 80px;
