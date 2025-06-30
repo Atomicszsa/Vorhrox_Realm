@@ -3,7 +3,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: #141B23; /* Darker gray-blue */
+    background: #0D1218; /* Более тёмный сине-серый */
     min-height: 100vh;
     color: #D3D8DC; /* Lighter gray for readability */
     overflow-x: hidden;
