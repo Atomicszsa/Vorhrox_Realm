@@ -1,21 +1,10 @@
-body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(135deg, #87CEEB 0%, #4682B4 50%, #87CEEB 100%);
-    min-height: 100vh;
-    color: #333;
-    overflow-x: hidden;
-}
-
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
 }
 
-header {
+.header {
     background: rgba(255, 255, 255, 0.95);
     backdrop-filter: blur(10px);
     border-radius: 20px;
@@ -25,7 +14,7 @@ header {
     border: 2px solid rgba(255, 215, 0, 0.3);
 }
 
-nav {
+.nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -121,7 +110,7 @@ nav {
     font-weight: bold;
     font-size: 18px;
     transition: all 0.3s ease;
-    box-shadow: 0 10px 25px rgba(255, 255, 0, 0.3);
+    box-shadow: 0 10px 25px rgba(255, 215, 0, 0.3);
 }
 
 .cta-button:hover {
@@ -212,7 +201,7 @@ nav {
     margin-top: 5px;
 }
 
-footer {
+.footer {
     background: rgba(255, 255, 255, 0.95);
     backdrop-filter: blur(10px);
     border-radius: 20px;
