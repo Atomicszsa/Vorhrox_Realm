@@ -3,8 +3,8 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(135deg, #87CEEB 0%, #4682B4 50%, #87CEEB 100%);
+    background: linear-gradient(135deg, #2C3E50 0%, #1A252F 50%, #2C3E50 100%); /* Darker gradient */
     min-height: 100vh;
-    color: #333;
+    color: #E0E0E0; /* Light gray text for readability */
     overflow-x: hidden;
 }
