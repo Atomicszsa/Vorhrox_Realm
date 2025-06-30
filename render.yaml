@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: discord-server-site
+    name: Vorhrox-Realm
     env: node
     branch: main
     repo: https://github.com/Atomicszsa/Vorhrox_Realm
