@@ -2,14 +2,14 @@ services:
   - type: web
     name: discord-server-site
     env: node
-    plan: free
     branch: main
-    repo: <https://github.com/Atomicszsa/Vorhrox_Realm/> # Replace with your GitHub/GitLab/Bitbucket repository URL
+    repo: https://github.com/Atomicszsa/Vorhrox_Realm
     buildCommand: npm install && npm run build
     startCommand: npm start
+    plan: free
     autoDeploy: true
     envVars:
       - key: NODE_VERSION
         value: 18
-      - key: NODE_ENV
-        value: production
+      - key: NPM_VERSION
+        value: 9
