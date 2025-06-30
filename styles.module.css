@@ -64,15 +64,9 @@
 }
 
 .hero::before {
-    content: '';
-    position: absolute;
-    top: -50%;
-    left: -50%;
-    width: 200%;
-    height: 200%;
-    background: radial-gradient(circle, rgba(138, 127, 77, 0.1) 0%, transparent 70%); /* Subdued gold gradient */
-    animation: rotate 20s linear infinite;
+    content: none;
 }
+
 
 @keyframes rotate {
     0% { transform: rotate(0deg); }
