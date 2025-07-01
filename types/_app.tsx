@@ -1,8 +1,10 @@
 // pages/_app.tsx
-import '../styles/globals.css';
-import '../styles/styles.module.css'; // если нужен
+import type { AppProps } from 'next/app';
+import '../styles/globals.css'; // Глобальные стили
+import '../styles/styles.module.css'; // Локальные стили (если используешь CSS-модули)
 
-
-export default function MyApp({ Component, pageProps }: AppProps) {
-return <Component {...pageProps} />;
+function MyApp({ Component, pageProps }: AppProps) {
+  return <Component {...pageProps} />;
 }
+
+export default MyApp;
