@@ -39,7 +39,7 @@ const Home: NextPage = () => {
             />
             <h1>Vorhrox Realms</h1>
             <p>Этот сервер создан для игр и общества фанатов Vorhrox'a!</p>
-            <a href="https://discord.gg/gcUZBVBG" className={styles['cta-button']}>
+            <a href="https://discord.gg/ZkcpXV5Rmr" className={styles['cta-button']}>
               Зайти на сервер
             </a>
           </div>
@@ -112,7 +112,7 @@ const Home: NextPage = () => {
           <div className={styles['hero-content']}>
             <h1>Заходите к нам!</h1>
             <p>И помните любая маленькая помощь - Огромное вложение в будущее в нашем случае это в будущее сервера!</p>
-            <a href="https://discord.gg/gcUZBVBG" className={styles['cta-button']}>
+            <a href="https://discord.gg/ZkcpXV5Rmr" className={styles['cta-button']}>
               Зайти на сервер
             </a>
           </div>
