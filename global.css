@@ -3,8 +3,9 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: #141B23 !important; /* Force dark gray-blue */
+    background: url('https://cdn.discordapp.com/attachments/1381871904192729118/1389543628967247984/cinemagraph-goku.gif?ex=686500d9&is=6863af59&hm=c94e7c941ed879fb62daff6d77da2342eb779358be54e3b38b30d7eba9f3311a&') no-repeat center center fixed; /* Replace with your GIF URL */
+    background-size: cover; /* Ensures GIF covers the entire viewport */
     min-height: 100vh;
-    color: #D3D8DC; /* Lighter gray for readability */
+    color: #D3D8DC; /* Lighter gray for readability over GIF */
     overflow-x: hidden;
 }
