@@ -20,7 +20,7 @@ const Home: NextPage = () => {
       <div className={styles.container}>
         <header className={styles.header}>
           <nav className={styles.nav}>
-            <div className={styles.logo}>Vorhrox Realm!</div>
+            <div className={styles.logo}>Vorhrox Realms!</div>
             <ul className={styles['nav-links']}>
               <li><a href="#home">Главная</a></li>
               <li><a href="#about">О сервере</a></li>
@@ -119,11 +119,12 @@ const Home: NextPage = () => {
         </section>
 
         <footer className={styles.footer}>
-          <p>2025 Vorhrox Realm Отдельное спасибо Саншайну.</p>
+          <p>2025 Vorhrox Realms Отдельное спасибо Саншайну.</p>
           <div className={styles['social-links']}>
             <a href="https://www.tiktok.com/@vorhrox">TT</a>
             <a href="https://t.me/vorhrox">TG</a>
             <a href="https://www.twitch.tv/vorhrox">TW</a>
+            <a href="https://www.youtube.com/@vorhrox">YT</a>
           </div>
         </footer>
       </div>
