@@ -75,7 +75,7 @@ const Home: NextPage = () => {
           </div>
           <div className={styles.card}>
             <img
-              src="https://cdn.discordapp.com/attachments/1378298825139163136/1389310314058878997/image.png?ex=6864278f&is=6862d60f&hm=b0dc5533b6faf71e5d34b417219e9cce78de99efafc4e7d78afa7369133ad86d&"
+              src="https://cdn.discordapp.com/attachments/1378298825139163136/1389478440515928114/image.png?ex=6864c423&is=686372a3&hm=8faebce5c18f018e08acc77f613832392037bef115c0a817f677b0a7e4438c91&"
               alt="Сообщество"
             />
             <h3>Сообщество</h3>
