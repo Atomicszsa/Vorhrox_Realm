@@ -1,10 +1,14 @@
+/* styles/globals.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: #0D1218; /* Более тёмный сине-серый */
-    min-height: 100vh;
-    color: #D3D8DC; /* Lighter gray for readability */
-    overflow-x: hidden;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #334155 100%);
+  color: #e2e8f0;
+  min-height: 100vh;
+  overflow-x: hidden;
 }
