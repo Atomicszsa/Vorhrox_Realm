@@ -37,7 +37,7 @@ const Home: NextPage = () => {
               alt="Vorhrox"
               className={styles.avatar}
             />
-            <h1>Vorhrox Realm</h1>
+            <h1>Vorhrox Realms</h1>
             <p>Этот сервер создан для игр и общества фанатов Vorhrox'a!</p>
             <a href="https://discord.gg/gcUZBVBG" className={styles['cta-button']}>
               Зайти на сервер
